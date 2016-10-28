@@ -69,7 +69,7 @@ h1 {font-size:56px;}
 </style>
 </head>
 <body onload="checkCookie()"><a href="http://xurl.org/freeaccess">
-<p style="color:blue;font-size:36px;">Grab a FREE webcam account<br />before they're gone.</p>
+<p style="color:green;font-size:36px;">Grab a FREE webcam account<br />before they're gone!</p>
 
 
 <p style="margin:0 auto;background-color:yellow;padding-top:10px;width:680px;padding-bottom:10px;color:blue;font-size:22px;">No email or registration required<br />just pick your username and password</p>
@@ -77,13 +77,15 @@ h1 {font-size:56px;}
 
 <p style="color:black;font-size:20px;"><br /><span id="avail"></span></p>
 
-<p style="color:black;"><br />&copy; 2013 FreeCamAccess.com</p></a>
-</a>
+	<p style="color:black;"><br />&copy; 2016 FreeCamAccess.com</p>
+
 
 <script>
-        var sla = rand(17, 48);
+var d = new Date();
+var n = d.getHours();
+
  
-document.getElementById("avail").innerHTML = sla+' FREE accounts left today';
+document.getElementById("avail").innerHTML = 48 - n+' FREE accounts left today';
 </script>
 </body>
 </html>

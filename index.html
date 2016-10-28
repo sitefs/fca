@@ -1,32 +1,6 @@
 <!DOCTYPE html>
 <html>
-<head><script>
-
-function setCookie(cname, cvalue, exdays) {
-	   
-	var d = new Date();    d.setTime(d.getTime() + (exdays*24*60*60*1000));    var 
-	expires = "expires="+ d.toUTCString();    document.cookie = 
-	cname + "=" + cvalue + ";" + expires + ";path=/";}
-
-function checkCookie() {    
-
-var user = getCookie("numb");
-    if (user == "") {
-        user = 6;
-        if (user != "" && 
-user != null) {
-            setCookie("numb", user, 1);
-        }    } else {user = 0}
-        
-        }
-
-function rand(min, max) {
-  return Math.floor(Math.random() * (max - min + 1) + min);
-        }
-        
-        
-        
-</script>
+<head><title>Free Cam Access - Your source of free cam signup pages</title>
 <link href='http://fonts.googleapis.com/css?family=Holtwood+One+SC' rel='stylesheet' type='text/css'>
 <style type="text/css">
 a{text-decoration:none;}
@@ -34,41 +8,9 @@ body {text-align:center;
 font-family: 'Holtwood One SC', serif;}
 p {color:blue;}
 h1 {font-size:56px;}
-.button {
-   border-top: 1px solid #97f79d;
-   background: #65d665;
-   background: -webkit-gradient(linear, left top, left bottom, from(#3e9c4c), to(#65d665));
-   background: -webkit-linear-gradient(top, #3e9c4c, #65d665);
-   background: -moz-linear-gradient(top, #3e9c4c, #65d665);
-   background: -ms-linear-gradient(top, #3e9c4c, #65d665);
-   background: -o-linear-gradient(top, #3e9c4c, #65d665);
-   padding: 20px 40px;
-   -webkit-border-radius: 11px;
-   -moz-border-radius: 11px;
-   border-radius: 11px;
-   -webkit-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   -moz-box-shadow: rgba(0,0,0,1) 0 1px 0;
-   box-shadow: rgba(0,0,0,1) 0 1px 0;
-   text-shadow: #000 0 1px 0;
-   color: white;
-   font-size: 21px;
-   font-family: 'Holtwood One SC', serif;
-   text-decoration: none;
-   vertical-align: middle;
-   }
-.button:hover {
-   border-top-color: #fff;
-   background: #ccc;
-   color: red;
-   }
-.button:active {
-   border-top-color: #1b5c22;
-   background: #1b5c22;
-   }
-
 </style>
 </head>
-<body onload="checkCookie()"><a href="http://xurl.org/freeaccess">
+<body><a href="http://xurl.org/freeaccess">
 <p style="color:green;font-size:36px;">Grab a FREE webcam account<br />before they're gone!</p>
 
 
@@ -77,14 +19,10 @@ h1 {font-size:56px;}
 
 <p style="color:black;font-size:20px;"><br /><span id="avail"></span></p>
 
-	<p style="color:black;"><br />&copy; 2016 FreeCamAccess.com</p>
-
-
+<p style="color:black;"><br />&copy; 2016 FreeCamAccess.com</p>
 <script>
 var d = new Date();
 var n = d.getHours();
-
- 
 document.getElementById("avail").innerHTML = 48 - n+' FREE accounts left today';
 </script>
 </body>
